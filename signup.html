@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+            body{
+                background: linear-gradient(rgb(192, 7, 7),rgba(255,255,255,0.9));
+                margin:0px;
+            }
+            #header{
+                height: 100px;
+                width:100%;
+                background: rgba(255,255,255,0.1);
+                display: flex;
+                justify-content: space-between;
+            }
+            #logo{
+                display: flex;
+            }
+            ul li{
+                display: inline-block;
+                margin: 0px 30px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            #body{
+                height: 400px;
+                width: 100%;
+            }
+            #box{
+                height: 400px;
+                width: 400px;
+                border: 2px solid white;
+                margin-top: 50px;
+            }
+            #th{
+                color: white;
+            }
+        </style>
+        </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <img src="https://i.pinimg.com/originals/95/ee/14/95ee145596f56c0a699a1371a0c70151.jpg" height="100" width="300">
+                <h1 style="color:white;padding-left: 100px;">KOTAK MAHINDRA BANK</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Admin.html">Admin</a></li>
+                <li><a href="Customer.html">Customer</a></li>
+                <li><a href="Employee.html">Employee</a></li>
+            </ul>
+        </div>
+        <div id="body">
+            <center>
+                <div id="box">
+                    <h2 style="color:white;">Sign Up</h2>
+                    <table>
+                        <tr>
+                            <th>Account No:</th>
+                            <td><input type="number" name="Account No"></td>
+                        </tr>
+                        <tr>
+                            <th>Mobile No:</th>
+                            <td><input type="number" name="Mobile No"></td>
+                        </tr>
+                        <tr>
+                            <th>Username:</th>
+                            <td><input type="text" name="username"></td>
+                        </tr>
+                        <tr>
+                            <th>password:</th>
+                            <td><input type="password" name="password"></td>
+                        </tr>
+                        <tr>
+                            <th>Confirm password:</th>
+                            <td><input type="password" name="password"></td>
+                        </tr>
+                        <tr>
+                            <th>Date Of Birth:</th>
+                            <td><input type="date" name="Date Of Birth"></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td><input type="submit" value="Sign up"></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>already have an account?<a href="customer.html">Login</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>
